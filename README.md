@@ -24,14 +24,14 @@ I've taken the time to reverse engineer how this device works and what it is doi
 # DOC
 I've documented what the memory map looks like here and where IO devices reside. I've hooked up the logic analyzer to the card reader lines and recorded the session of reading a card here.  I'd used SPI decoding but that isn't quite right, the 1/0 logic is reversed (high is zero) and the start bit needs to be counted in where it is 7 bit with 1 parity bit for one track and 5 bit with 1 parity bit for the other track.  The reader appers to read only two tracks.  Probably need to define a custom decoder in DSView for this reader.
 
-#Hardware
+# Hardware
 The EasyEDA schematic of the board and CPU is here.  I've ignored most capacitors, many resistors and merely focused on the logic in the wiring.
 
-#Src
+# Src
 The eeprom has been dumped here, the bin generated and code dissasembled.  I've started to go through it and am adding comments as I go with the assembly.  This is an assembly learning excersize with Z80 for me.
 
-#Video
+# Video
 
-Here is a link to the video showing the physical device.  (https://youtu.be/nczhsaTh96I)[https://youtu.be/nczhsaTh96I]
+Here is a link to the video showing the physical device. [Physical device overview](https://youtu.be/nczhsaTh96I)
 
 
