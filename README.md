@@ -7,6 +7,7 @@ Its features :
 
 - Zilog Z80 processor 40-DIP circa. '89 vintage
 - 16Kb ROM (of which only 4Kb are used)
+- 8Kb RAM
 - Parallel port device with 3-ports (8255AP)
 - Lithium Ion battery backup and low-power circuitry (but no RealTimeClock)
 - A buzzer
