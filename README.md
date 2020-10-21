@@ -14,7 +14,7 @@ Its features :
 - Optically isolated input switch sense
 - Switched relay for isloated closed loop circuit
 - A card reader device
-- A ports for more IO devices
+- Expansion ports for more IO devices
 - 4Mhz clock
 - Two push-button switches
 - Interrupt called regularly as a function of clock frequesncy
